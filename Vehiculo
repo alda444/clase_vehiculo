@@ -20,7 +20,7 @@ public class Vehiculos {
         this.diametro = diametro;
         this.marca = marca;
         this.tamaño = tamaño;
-        this.modelo2 = modelo;
+        this.modelo = modelo;
         this.color2 = color2;
         this.resistente = resistente;
     }    
