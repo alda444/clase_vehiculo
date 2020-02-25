@@ -1,0 +1,92 @@
+package ico.fes.poo;
+import ico.fes.poo.componentes.Llanta;
+import ico.fes.poo.componentes.Motor;
+import ico.fes.poo.componentes.Chasis;
+
+public class Vehiculos {
+    private int año; 
+    private String color;
+    private Llanta diametro;
+    private Llanta marca;
+    private Motor tamaño;
+    private Motor modelo;
+    private Chasis color2;
+    private Chasis resistente;
+    public Vehiculos(){ 
+    }
+    public Vehiculos(int año, String color, Llanta diametro, Llanta marca, Motor tamaño, Motor modelo, Chasis color2, Chasis resistente) {
+        this.año = año;
+        this.color = color;
+        this.diametro = diametro;
+        this.marca = marca;
+        this.tamaño = tamaño;
+        this.modelo2 = modelo;
+        this.color2 = color2;
+        this.resistente = resistente;
+    }    
+
+    public int getaño() {
+        return año;
+    }
+
+    public void setaño(int año) {
+        this.color = color;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public Llanta getDiametro() {
+        return diametro;
+    }
+
+    public void setDiametro(Llanta diametro) {
+        this.diametro = diametro;
+    }
+
+    public Llanta getMarca() {
+        return marca;
+    }
+
+    public void setMarca(Llanta marca) {
+        this.marca = marca;
+    }
+
+    public Motor getTamaño() {
+        return tamaño;
+    }
+
+    public void setTamaño(Motor tamaño) {
+        this.tamaño = tamaño;
+    }
+
+    public Motor getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(Motor modelo) {
+        this.modelo = modelo;
+    }
+
+    public Chasis getColor2() {
+        return color2;
+    }
+
+    public void setColor2(Chasis color2) {
+        this.color2 = color2;
+    }
+
+    public Chasis getResistente() {
+        return resistente;
+    }
+
+    public void setResistente(Chasis resistente) {
+        this.resistente = resistente;
+    }
+
+}
